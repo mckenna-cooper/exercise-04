@@ -1,0 +1,29 @@
+---
+title: "exercise-05"
+Author: "Mckenna Cooper"
+date: "February 12, 2025"
+format: html
+editor: visual
+---
+# **Penguins Dataset Analysis**
+This document contains answers to questions about the `penguins` dataset.
+---
+
+```{r}
+# Load the required package
+library(palmerpenguins)
+
+# Display the column names of the dataset
+colnames(penguins)
+```
+
+```{r}
+# Check the data type of specific columns
+class(penguins$flipper_length_mm)
+class(penguins$island)
+```
+
+```         
+```
+
+\

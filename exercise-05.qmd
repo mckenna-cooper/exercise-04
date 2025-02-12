@@ -10,6 +10,8 @@ This document contains answers to questions about the `penguins` dataset.
 ---
 
 ```{r}
+# Install the package (only run once)
+install.packages("palmerpenguins")
 # Load the required package
 library(palmerpenguins)
 
